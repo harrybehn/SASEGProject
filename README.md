@@ -35,7 +35,7 @@ This project showcases a complete automated process flow built in SAS Enterprise
   - Compares metrics across periods (Yesterday, P1W, P2W, P3W) and calculates percentage differences.
   - Applies formatting for readability (e.g., bold headers, percent formats).
 - Appends a closing message and sends the report as an HTML email.
-<img width="981" height="836" alt="Image" src="https://github.com/user-attachments/assets/471f11be-0a80-484a-92e3-d64d0d7fad5d" />
+<img width="772" height="830" alt="Image" src="https://github.com/user-attachments/assets/0a229212-4084-4343-bdba-6479595ac26d" />
 
 ## Email Scheduling
 - Use the 'Schedule Process Flow' feature in SAS EG to schedule sending of email.
@@ -44,5 +44,5 @@ This project showcases a complete automated process flow built in SAS Enterprise
 
 ## Result
 - The report was successfully delivered via email at the scheduled time, with the content embedded in HTML format.
-
+<img width="1144" height="785" alt="Image" src="https://github.com/user-attachments/assets/36667dc8-b35b-4ed2-8e4e-9c7af07bc0fa" />
 
