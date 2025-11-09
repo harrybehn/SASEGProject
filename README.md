@@ -7,15 +7,17 @@ This project showcases a complete automated process flow built in SAS Enterprise
 ---
 
 ## ETL Process
-- Uses PROC SQL to join and transform data from multiple source tables: GAMINGSESSION, PLAYER, and NATIONALITY.
-- Performs a LEFT JOIN to enrich session data with player nationality.
-- Derives new fields:
+- Join and transform data from multiple source tables: GAMINGSESSION, PLAYER, and NATIONALITY.
+- Performs a LEFT JOIN to add the player nationality in GamingSession table.
+- Creates Computed Columns:
   - GameType: Categorizes sessions as Table, Slot, or ETG based on GamingArea1.
   - Period: Maps specific EndTime dates to reporting periods like Yesterday, P1W, P2W, etc.
   - NationalityGroup: Groups players into Philippines, USA, or Others based on nationality.
-- Outputs a cleaned and enriched dataset MERGED_TABLES for downstream processing.
 <img width="1160" height="737" alt="Image" src="https://github.com/user-attachments/assets/13845f77-2d53-4017-989a-2d6e914db3cf" />
-
+– Aggregate UniquePlayer, TheoWin, ActualWin, and CoinIn by Period and NationalityGroup
+– Exclude records where Period = 'NA'
+<img width="746" height="441" alt="Image" src="https://github.com/user-attachments/assets/811beed4-4077-40c5-9efa-0312b1df41ec" />
+  
 ## Transpose using a Program
 - Uses PROC TRANSPOSE to reshape the dataset work.R1 into work.R2.
 - Groups data by NationalityGroup using the BY statement.
