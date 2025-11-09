@@ -14,8 +14,8 @@ This project showcases a complete automated process flow built in SAS Enterprise
   - Period: Maps specific EndTime dates to reporting periods like Yesterday, P1W, P2W, etc.
   - NationalityGroup: Groups players into Philippines, USA, or Others based on nationality.
 <img width="1160" height="737" alt="Image" src="https://github.com/user-attachments/assets/13845f77-2d53-4017-989a-2d6e914db3cf" />
-– Aggregate UniquePlayer, TheoWin, ActualWin, and CoinIn by Period and NationalityGroup
-– Exclude records where Period = 'NA'
+- Aggregate UniquePlayer, TheoWin, ActualWin, and CoinIn by Period and NationalityGroup
+- Exclude records where Period = 'NA'
 <img width="746" height="441" alt="Image" src="https://github.com/user-attachments/assets/811beed4-4077-40c5-9efa-0312b1df41ec" />
   
 ## Transpose using a Program
