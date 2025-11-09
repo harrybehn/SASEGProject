@@ -15,13 +15,13 @@ This project showcases a complete automated process flow built in SAS Enterprise
   - NationalityGroup: Groups players into Philippines, USA, or Others based on nationality.
 - Outputs a cleaned and enriched dataset MERGED_TABLES for downstream processing.
 
-### Transpose using a Program
+## Transpose using a Program
 - Uses PROC TRANSPOSE to reshape the dataset work.R1 into work.R2.
 - Groups data by NationalityGroup using the BY statement.
 - Pivots the values of UniquePlayer, CoinIn, ActualWin, and TheoWin across different Period values using the ID statement.
 - This transformation converts long-format data into wide-format, making it easier to compare metrics across time periods for each nationality group.
 
-### Automated Report Generation
+## Automated Report Generation
 - Configures SAS to send emails via SMTP using the emailhost and emailsys options.
 - Uses FILENAME msg EMAIL to define the email recipient, sender, subject, and content type (text/html).
 - Embeds a styled HTML message using ODS HTML and escape characters for formatting.
