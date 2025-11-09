@@ -4,9 +4,9 @@
 
 This project showcases a complete automated process flow built in SAS Enterprise Guide (EG). It demonstrates how to manage ETL, transform data, generate reports, and automate email delivery using native SAS capabilities and Windows Task Scheduler.
 
---
+---
 
-### ETL Process
+## ETL Process
 - Uses PROC SQL to join and transform data from multiple source tables: GAMINGSESSION, PLAYER, and NATIONALITY.
 - Performs a LEFT JOIN to enrich session data with player nationality.
 - Derives new fields:
