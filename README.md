@@ -21,6 +21,7 @@ This project showcases a complete automated process flow built in SAS Enterprise
 - Groups data by NationalityGroup using the BY statement.
 - Pivots the values of UniquePlayer, CoinIn, ActualWin, and TheoWin across different Period values using the ID statement.
 - This transformation converts long-format data into wide-format, making it easier to compare metrics across time periods for each nationality group.
+<img width="664" height="181" alt="Image" src="https://github.com/user-attachments/assets/166625ae-5291-455a-a2e1-31b586ad77df" />
 
 ## Automated Report Generation
 - Configures SAS to send emails via SMTP using the emailhost and emailsys options.
@@ -31,5 +32,5 @@ This project showcases a complete automated process flow built in SAS Enterprise
   - Compares metrics across periods (Yesterday, P1W, P2W, P3W) and calculates percentage differences.
   - Applies formatting for readability (e.g., bold headers, percent formats).
 - Appends a closing message and sends the report as an HTML email.
-
+<img width="981" height="836" alt="Image" src="https://github.com/user-attachments/assets/471f11be-0a80-484a-92e3-d64d0d7fad5d" />
 
