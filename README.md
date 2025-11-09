@@ -34,3 +34,9 @@ This project showcases a complete automated process flow built in SAS Enterprise
 - Appends a closing message and sends the report as an HTML email.
 <img width="981" height="836" alt="Image" src="https://github.com/user-attachments/assets/471f11be-0a80-484a-92e3-d64d0d7fad5d" />
 
+## Email Scheduling
+- Use the 'Schedule Process Flow' feature in SAS EG to schedule sending of email.
+- Set the time and frequency of sending in 'Triggers' tab.
+<img width="1163" height="739" alt="Image" src="https://github.com/user-attachments/assets/472f10ba-919a-4b14-867a-2634ce8f1097" />
+
+
