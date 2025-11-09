@@ -1,6 +1,6 @@
 ##  SAS Enterprise Guide Process Flow Automation
 
-##[Code Compilation](https://github.com/harrybehn/PortfolioProjectCode/blob/main/Program%20Email%20sending.sas)
+[Code Compilation](https://github.com/harrybehn/PortfolioProjectCode/blob/main/Program%20Email%20sending.sas)
 
 This project showcases a complete automated process flow built in SAS Enterprise Guide (EG). It demonstrates how to manage ETL, transform data, generate reports, and automate email delivery using native SAS capabilities and Windows Task Scheduler.
 
@@ -14,6 +14,7 @@ This project showcases a complete automated process flow built in SAS Enterprise
   - Period: Maps specific EndTime dates to reporting periods like Yesterday, P1W, P2W, etc.
   - NationalityGroup: Groups players into Philippines, USA, or Others based on nationality.
 - Outputs a cleaned and enriched dataset MERGED_TABLES for downstream processing.
+<img width="1160" height="737" alt="Image" src="https://github.com/user-attachments/assets/13845f77-2d53-4017-989a-2d6e914db3cf" />
 
 ## Transpose using a Program
 - Uses PROC TRANSPOSE to reshape the dataset work.R1 into work.R2.
