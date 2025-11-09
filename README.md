@@ -39,4 +39,7 @@ This project showcases a complete automated process flow built in SAS Enterprise
 - Set the time and frequency of sending in 'Triggers' tab.
 <img width="1163" height="739" alt="Image" src="https://github.com/user-attachments/assets/472f10ba-919a-4b14-867a-2634ce8f1097" />
 
+## Resul
+- The report was successfully delivered via email at the scheduled time, with the content embedded in HTML format.
+
 
