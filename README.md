@@ -1,6 +1,6 @@
 ##  SAS Enterprise Guide Process Flow Automation
 
-[See Code here:](https://github.com/harrybehn/PortfolioProjectCode/blob/main/Program%20Email%20sending.sas)
+[See Code here](https://github.com/harrybehn/PortfolioProjectCode/blob/main/Program%20Email%20sending.sas)
 
 This project showcases a complete automated process flow built in SAS Enterprise Guide (EG). It demonstrates how to manage ETL, transform data, generate reports, and automate email delivery using native SAS capabilities and Windows Task Scheduler.
 
