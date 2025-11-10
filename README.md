@@ -46,3 +46,8 @@ This project showcases a complete automated process flow built in SAS Enterprise
 - The report was successfully delivered via email at the scheduled time, with the content embedded in HTML format.
 <img width="1144" height="785" alt="Image" src="https://github.com/user-attachments/assets/36667dc8-b35b-4ed2-8e4e-9c7af07bc0fa" />
 
+## Technologies Used
+- SAS Enterprise Guide
+- Base SAS (PROC TRANSPOSE, PROC REPORT, ODS)
+- Windows Task Scheduler
+
