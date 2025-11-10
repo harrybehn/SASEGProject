@@ -1,4 +1,4 @@
-##  SAS Enterprise Guide Process Flow Automation
+#  SAS Enterprise Guide Process Flow Automation
 
 [See Code here](https://github.com/harrybehn/PortfolioProjectCode/blob/main/Program%20Email%20sending.sas)
 
